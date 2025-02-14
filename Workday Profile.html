@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            margin: 0;
+            color: #fff;
+            font-family: Times New Roman;
+        }
+        .home-page {
+            width: 50%;
+            margin: auto;
+            text-align: center;
+            margin-top: 10%;
+        }
+        .home-details {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            background-color: Blue;
+            padding: 15px 10px;
+            box-shadow: 0 1px 3px 1px rgba(256, 256, 256, .2);
+        }
+        .home-details p {
+            padding: 0 15px;
+        }
+        .home-details p:hover {
+            text-shadow: 1px 1px 10px #FFF;
+        }
+        .resume, .gallery, .cover-letter, .bibliography, .library {
+            display: none;
+            padding: 30px;
+            border-radius: 7px;
+            padding-top: 70px;
+            margin-bottom: 5%;
+        }
+        h2.header {
+            font-weight: 500;
+            display: inline;
+            box-shadow: 0 2px;
+            letter-spacing: 7px;
+            padding-bottom: 5px;
+        }
+        .resume h4 {
+            font-weight: 500;
+            letter-spacing: 3px;
+        }
+        .resume p {
+            font-weight: 100;
+            line-height: 1.4em;
+        }
+        .edu {
+            padding: 7px 0;
+        }
+        .edu h4 {
+            margin: 0;
+            padding: 0;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        .edu p {
+            margin: 5px 0px;
+            font-weight: 100;
+        }
+        .resume ul li {
+            padding: 3px;
+            line-height: 1.4em;
+            font-weight: 100;
+        }
+        .images {
+            width: 65%;
+            margin: auto;
+            margin-top: 10px;
+        }
+        .images img {
+            width: 100%;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .cover-matter p {
+            margin: 10px;
+            font-weight: 100;
+            font-size: 16px;
+            letter-spacing: .5px;
+        }
+        .bibliography p, .library p {
+            font-size: 17px;
+            line-height: 1.4em;
+        }
+        @media screen and (max-width: 900px) {
+            .resume, .gallery, .cover-letter, .bibliography, .library {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="home-details">
+        <p class="res">RESUME</p>
+        <p class="gal">GALLERY</p>
+        <p class="cov">COVER LETTER</p>
+    </div>
+    <div class="home-page">
+        <hr/><br/>
+        <h3 style="font-weight: 500">ASHOK MARAM</h3>
+        <p style="font-weight: 500">TO KNOW MORE ABOUT ME CHOOSE THE FOLLOWING..</p><br/>
+        <hr/>
+    </div>
+    <div class="resume">
+        <h2 class="header">RESUME</h2>
+        <div style="text-align: center">
+            <h2 style="font-weight: 500; letter-spacing: 5px;">Ashok Maram</h2>
+        </div>
+        
+        <h4><b>Email</b></h4>
+        <p>ashok.maram1@gmail.com</p>
+
+        <h4><b>Mobile Number</b></h4>
+        <p>+13472168881</p>
+
+        <h4><b>Address</b></h4>
+        <p>Dallas, TX</p>
+
+        <h4><b>Quick Summary</b></h4>
+        <p>Highly motivated and results-driven Workday Consultant with over 5+ years of experience specializing in Workday Configuration, Integration, Support, Reporting, and Upgrades. Expertise in designing and implementing Workday HCM, Compensation, Payroll, and Benefits modules while ensuring seamless integrations with third-party applications. Adept at troubleshooting, system optimization, and providing end-user training to enhance HRIS functionality and business efficiency</p>
+        
+        <h4><b>Professional Summary</b></h4>
+        <ul>
+            <li>Managed over 5+ Workday implementations, accumulating over a decade of experience in Workday development. Provided ongoing support for the HCM team of an organization generating $5 billion+ in revenue and operating expenses</li>
+            <li>Experience with end-to-end implementation of Workday HCM (Core HCM, Recruiting, benefits. Time tracking, Leave of absence)</li>
+            <li>Developed and maintained Workday integrations using Workday Studio, EIBs, and Core Connectors</li>
+            <li>Created complex calculated fields and advanced Workday reports for analytics and compliance</li>
+            <li>Collaborated closely with Workday implementers like Workday, Accenture, Deloitte, PwC, Top Bloc, etc., to drive Workday implementation projects and optimize HR and financial processes</li>
+            <li>Distinguished ability to translate complex requirements into cost-effective turn-key solutions using adequate analytical, organizational, and communication skills</li>
+            <li>Hands-on experience in modifying reports and building new reports</li>
+            <li>Additional competencies include Vendor Management, Outsourcing, Communication, Analytical Thinking, Decision-Making, Audit Compliance (SOX) and Security, Strategic Planning, and strong Technical Skills</li>
+            <li>Hands-on experience configuring the Design of Workday/ Reports & HR Dashboards on Core HCM business processes (Employee/Workforce details, Hires/Headcount/ Turnover, compensation, recruiting, diversity, benefits, time & absence)</li>
+        </ul>
+
+        <h4><b>Education</b></h4>
+        <div class="edu">
+            <h4>Masters | Computer Science | 3.96 GPA</h4>
+            <p>New England College</p>
+
+            <h4>Bachelors | Computer Science</h4>
+            <p>Lovely Professional University</p>
+        </div>
+
+        <h4><b>Technical Skills</b></h4>
+        <ul>
+            <li><b>Workday Modules:</b> HCM, Core HR, Compensation, Benefits, Payroll, Absence Management, Security Configuration</li>
+            <li><b>Integration Tools:</b> Workday Studio, EIB, Core Connectors, Boomerang Integrations/Could Connectors, BIRT, Workday WebServices, REST/SOAP APIs</li>
+            <li><b>Reporting & Analytics:</b> Workday Report Writer, Calculated Fields, Advanced & Matrix Reports</li>
+            <li><b>Data Management:</b> Business Processes, Workday Security, Mass Data Loads (EIB, iLoad)</li>
+            <li><b>Scripting & Tools:</b> XML, XSLT, JSON, SQL, BIRT, People Code</li>
+            <li><b>Project Management:</b> Agile, Scrum, Jira, ServiceNow</li>
+            <li><b>Healthcare Knowledge:</b> HL7, XML messaging standards, APIs, downstream applications, and core systems integration</li>
+            <li><b>Soft Skills:</b> Excellent communication with executives, managers, and SMEs; strong prioritization and multitasking abilities</li>
+        </ul>
+
+        <h4><b>Work Experience</b></h4>
+
+        <h4>Cigna</h4>
+        <h4>Workday Integration Consultant</h4>
+        <h4>Mar 2023 - Current</h4>
+        <p><b>Role:</b> Workday Integration Consultant: Workday Core HCM, Absence/Time Tracking, and any other areas such as Compensation, Benefits, Talent, and Recruitment</p>
+        <div class="work-experience">
+            <ul>
+                <li><b>Report Writer:</b> Hands-on experience in various report types, such as advanced, matrix, trending, and composite reports</li>
+                <li><b>Workday Studio:</b> Created Complex studio integration to send Bonus statements, Loading Hire, termination details</li>
+                <li><b>Report Writer/Calc fields:</b> Expertise in Advanced, Matrix, Composite, dash Boards, and Trending reports</li>
+                <li><b>EIB:</b> Created new integration, sending data from workday to different systems using XSLT transformation</li>
+                <li>Created EIB inbound integration to load new hire, term, change job data, Position data, etc</li> 
+                <li><b>Workday HCM/Benefit Configuration:</b> Proficiently configured and customized Workday HCM modules to optimize business processes, align them with organizational needs, and enable multicurrency across US and Canadian Developed Workday Prism Lineage, overseeing a high-volume operation with 5000 suppliers and processing over 300k+ monthly invoices. Successfully maintained and optimized existing lineages while actively contributing to creating new Workday Prism pipelines. Building tables, DDS, BDS, Prism Data sources</li>
+                <li>Led Workday Release Testing, ensuring platform integrity, security, and user alignment through comprehensive regression testing, UAT, performance and integration testing, mobile and accessibility testing, and continuous process improvement</li>
+                <li><b>Workday HCM configuration:</b> Configured Various Business processes related to Core HCM/Recruiting; expertise in configuring various job data, position data, SUP org data, Comp plans, grades, grades, grade profiles, etc</li>
+                <li>Provided end-user support, troubleshooting errors, and managing ServiceNow tickets</li>
+            </ul>
+        </div>
+
+        <h4>Echo Global Logistics</h4>
+        <h4>Workday HCM Consultant</h4>
+        <h4>June 2019 - May 2022</h4>
+        <div class="work-experience">
+            <ul>
+                <li>Worked on Workday Core HCM, On-boarding, Performance Management, Absence / Time Management, Benefits and Compensation modules</li>
+                <li>Good understanding of Integrations including Web Services, SaaS, Workday Architecture, and Business Process Framework.</li>
+                <li>Worked on gathering Requirements, Designing, Building, Testing, and Delivering Workday Integrations using templates Cloud Connects for HCM and EIBs.</li>
+                <li>Worked on configuring EIB, and building Custom Reports using Calculated Fields, Delivered fields, and Complex Business Processes.</li>
+                <li>Worked on HCM Core Concepts, Types of Organization, Staffing Models, Compensation, Security Groups, and Business Processes.</li>
+                <li>Demonstrated proficiency with XML, XSD, XSLT, and web service technologies (WSDL, REST, JSON, SOAP, HTTP, SSL, etc.)</li>
+                <li>Worked on customization, implementation, and upgrades of PeopleSoft HRMS/HCM</li> 
+                <li>Worked on complete ERP Software development lifecycle (SDLC) in AGILE & Waterfall methodologies.  Processes involving business & system analysis, design development, customization, configuration, setup, integration, upgrade & enhancement, and functional testing.</li>
+                <li>Worked on Atlassian tools such as JIRA, and Confluence in Agile methodologies in integration, upgrade & enhancement, and functional testing.</li>
+                <li>Worked on technical/functional specification design based on the end-user interaction.</li>
+                <li>Worked on developing Oracle SQL stored procedures</li>
+            </ul>
+        </div>
+    </div>
+    <div class="gallery">
+        <h2 class="header">GALLERY</h2>
+        <div class="images">
+            <img src="./photos/Ashok.jpg" alt="Photo 1"/>
+            <img src="./photos/photo2.jpeg" alt="Photo 2"/>
+            <img src="./photos/photo3.jpeg" alt="Photo 3"/>
+            <img src="./photos/photo5.jpeg" alt="Photo 5"/>
+        </div>
+    </div>
+    <div class="cover-letter">
+        <h2 class="header">COVER LETTER</h2>
+        <h3 style="font-weight: 500; letter-spacing: 1px; margin: 30px 0"> Ashok Maram</h3>
+        <div class="cover-matter">
+            <p>From:</p>
+            <p>Dallas,TX.</p>
+            <p>To:</p>
+            <p>Hiring Manager,</p>
+            <p style="line-height: 1.6em">Ashok Maram
+
+
+Dear Hiring Manager,
+
+I am excited to apply for the Workday Consultant role at [Company Name]. With over five years of experience specializing in Workday Configuration, Integration, Support, Reporting, and Upgrades, I bring a deep understanding of Workday HCM, Compensation, Payroll, and Benefits modules, along with a proven ability to drive seamless integrations with third-party applications.
+
+In my current role at Cigna, I have successfully developed and maintained Workday integrations using Workday Studio, EIBs, and Core Connectors. I have designed complex calculated fields and advanced Workday reports, providing data-driven insights that optimize HR and financial processes. Leading Workday Release Testing, I have ensured platform integrity through comprehensive regression, UAT, performance, and integration testing while also focusing on mobile and accessibility testing. Additionally, my expertise in Workday Prism has allowed me to oversee high-volume operations, managing over 300K monthly invoices and ensuring smooth data lineage processes.
+
+Previously, at Echo Global Logistics, I gained extensive experience working with Workday Core HCM, Onboarding, Performance Management, Absence/Time Management, Benefits, and Compensation modules. My proficiency with Workday integrations, business process framework, and reporting capabilities has enabled me to streamline HR operations while ensuring compliance and efficiency.
+
+Beyond my technical expertise, I excel in cross-functional collaboration, stakeholder communication, and Agile methodologies. My ability to translate complex business requirements into scalable Workday solutions aligns perfectly with the needs of dynamic organizations seeking to optimize their HRIS ecosystem.
+
+I am eager to bring my Workday expertise and strategic problem-solving skills to [Company Name]. I welcome the opportunity to discuss how my experience can contribute to your team’s success. Thank you for your time and consideration.
+
+<p>Best regards,</p>
+
+<p>Ashok Maram</p>
+<p><b>Email:</b> ashok.maram1@gmail.com</p>
+<p><b>Phone:</b> +1 (347) 216-8881</p>
+<p><b>Dallas, TX</b></p>
+
+        </div>
+    </div>
+    <script>
+        const homePage = document.querySelector(".home-page");
+        const resume = document.querySelector(".resume");
+        const gallery = document.querySelector(".gallery");
+        const coverLetter = document.querySelector(".cover-letter");
+
+        document.querySelector(".res").addEventListener("click", function() {
+            homePage.style.display = "none";
+            gallery.style.display = "none";
+            coverLetter.style.display = "none";
+            resume.style.display = "block";
+        });
+        document.querySelector(".gal").addEventListener("click", function() {
+            homePage.style.display = "none";
+            coverLetter.style.display = "none";
+            resume.style.display = "none";
+            gallery.style.display = "block";
+        });
+        document.querySelector(".cov").addEventListener("click", function() {
+            homePage.style.display = "none";
+            gallery.style.display = "none";
+            resume.style.display = "none";
+            coverLetter.style.display = "block";
+        });
+    </script>
+</body>
+</html>
